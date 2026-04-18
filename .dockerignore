@@ -1,0 +1,14 @@
+.git
+.github
+__pycache__
+.pytest_cache
+.ruff_cache
+.venv
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+infra/terraform/.terraform
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.*
+terraform

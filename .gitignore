@@ -1,11 +1,26 @@
-# Ignore everything in the repo
-/*
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
 
-# Except the .gitignore itself
-!.gitignore
+# Docker
+*.tar
 
-# Except README files
-!README.md
-!README
-!readme.md
-!readme
+# Logs
+*.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.pyc
+
+# Terraform outputs
+infra/terraform/container-host.json
+infra/terraform/deployment.env
